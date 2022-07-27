@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\OT">
+      <UniqueIdentifier>{6ed94158-a8f3-4624-9e6c-61ac8863933e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\입_출력">
+      <UniqueIdentifier>{b6cfb83b-b1b0-4569-bbf3-4bd2c672c556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\샘플클래스">
+      <UniqueIdentifier>{fa5020b9-449d-4963-8aaa-0524e55d6cf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\생성자 소멸자">
+      <UniqueIdentifier>{a3690daa-d6b1-44a4-b6b4-2152511cda2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\클래스상속">
+      <UniqueIdentifier>{23c43eb2-84cd-4c17-a56b-56560f67a081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\클래스포인터">
+      <UniqueIdentifier>{8005233d-d68d-47c9-9744-8a28b67badb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\샘플클래스\샘플클래스2">
+      <UniqueIdentifier>{03d7cda2-00ea-48cb-94f5-7251b449d644}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\샘플클래스\샘플클래스3">
+      <UniqueIdentifier>{928c9806-963a-4571-91cf-b295ba2c0b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\샘플클래스\샘플클래스4">
+      <UniqueIdentifier>{fb687aaa-4baa-41d4-b5aa-a2ff443e0eac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\추상클래스">
+      <UniqueIdentifier>{4b8f6997-3a2c-4d89-b4ce-8f09f1dc1fdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\형 변환-1">
+      <UniqueIdentifier>{6e8f6b08-ca19-49a7-8e89-8015ba27e34e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\형변 환- 2">
+      <UniqueIdentifier>{ac2e507e-74bb-454a-8305-9507d228e9cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="OT.txt">
+      <Filter>소스 파일\OT</Filter>
+    </Text>
+    <Text Include="Class.txt">
+      <Filter>소스 파일\샘플클래스</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OT.cpp">
+      <Filter>소스 파일\OT</Filter>
+    </ClCompile>
+    <ClCompile Include="namespace1.cpp">
+      <Filter>소스 파일\OT</Filter>
+    </ClCompile>
+    <ClCompile Include="intput_output.cpp">
+      <Filter>소스 파일\입_출력</Filter>
+    </ClCompile>
+    <ClCompile Include="intput_output.2.cpp">
+      <Filter>소스 파일\입_출력</Filter>
+    </ClCompile>
+    <ClCompile Include="intput_output3.cpp">
+      <Filter>소스 파일\입_출력</Filter>
+    </ClCompile>
+    <ClCompile Include="intput_output4cpp.cpp">
+      <Filter>소스 파일\입_출력</Filter>
+    </ClCompile>
+    <ClCompile Include="class.cpp">
+      <Filter>소스 파일\샘플클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="샘플클래스.cpp">
+      <Filter>소스 파일\샘플클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="Class.2.cpp">
+      <Filter>소스 파일\샘플클래스\샘플클래스2</Filter>
+    </ClCompile>
+    <ClCompile Include="샘플클래스2.cpp">
+      <Filter>소스 파일\샘플클래스\샘플클래스2</Filter>
+    </ClCompile>
+    <ClCompile Include="Class3.cpp">
+      <Filter>소스 파일\샘플클래스\샘플클래스3</Filter>
+    </ClCompile>
+    <ClCompile Include="샘플클래스3.cpp">
+      <Filter>소스 파일\샘플클래스\샘플클래스3</Filter>
+    </ClCompile>
+    <ClCompile Include="Class4.cpp">
+      <Filter>소스 파일\샘플클래스\샘플클래스4</Filter>
+    </ClCompile>
+    <ClCompile Include="샘플클래스4.cpp">
+      <Filter>소스 파일\샘플클래스\샘플클래스4</Filter>
+    </ClCompile>
+    <ClCompile Include="Create_Destroy.cpp">
+      <Filter>소스 파일\생성자 소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="생성자소멸자_클래스.cpp">
+      <Filter>소스 파일\생성자 소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="Create_Destroy2.cpp">
+      <Filter>소스 파일\생성자 소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="Create_Destroy3.cpp">
+      <Filter>소스 파일\생성자 소멸자</Filter>
+    </ClCompile>
+    <ClCompile Include="class_inheritance.cpp">
+      <Filter>소스 파일\클래스상속</Filter>
+    </ClCompile>
+    <ClCompile Include="class_inheritance2.cpp">
+      <Filter>소스 파일\클래스상속</Filter>
+    </ClCompile>
+    <ClCompile Include="class_inheritance3.cpp">
+      <Filter>소스 파일\클래스상속</Filter>
+    </ClCompile>
+    <ClCompile Include="class.pointer.cpp">
+      <Filter>소스 파일\클래스포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="class.pointer2.cpp">
+      <Filter>소스 파일\클래스포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="class_pointer3.cpp">
+      <Filter>소스 파일\클래스포인터</Filter>
+    </ClCompile>
+    <ClCompile Include="Abstract Classes.cpp">
+      <Filter>소스 파일\추상클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="Abstract Class2.cpp">
+      <Filter>소스 파일\추상클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="Abstract class3.cpp">
+      <Filter>소스 파일\추상클래스</Filter>
+    </ClCompile>
+    <ClCompile Include="형 변환.cpp">
+      <Filter>소스 파일\형 변환-1</Filter>
+    </ClCompile>
+    <ClCompile Include="형변환2.cpp">
+      <Filter>소스 파일\형 변환-1</Filter>
+    </ClCompile>
+    <ClCompile Include="형변환3.cpp">
+      <Filter>소스 파일\형 변환-1</Filter>
+    </ClCompile>
+    <ClCompile Include="형변환2-1.cpp">
+      <Filter>소스 파일\형변 환- 2</Filter>
+    </ClCompile>
+    <ClCompile Include="형변환2-2.cpp">
+      <Filter>소스 파일\형변 환- 2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="샘플클래스.h">
+      <Filter>소스 파일\샘플클래스</Filter>
+    </ClInclude>
+    <ClInclude Include="샘플클래스2.h">
+      <Filter>소스 파일\샘플클래스\샘플클래스2</Filter>
+    </ClInclude>
+    <ClInclude Include="샘플클래스3.h">
+      <Filter>소스 파일\샘플클래스\샘플클래스3</Filter>
+    </ClInclude>
+    <ClInclude Include="샘플클래스4.h">
+      <Filter>소스 파일\샘플클래스\샘플클래스4</Filter>
+    </ClInclude>
+    <ClInclude Include="생성자소멸자_클래스.h">
+      <Filter>소스 파일\생성자 소멸자</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
